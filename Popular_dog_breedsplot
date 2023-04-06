@@ -1,0 +1,8 @@
+import pandas as pd
+import numpy as np
+from pathlib import Path
+
+# load the clean data into a dataframe and show the first few rows
+data_path = Path('results/Popular_dog_breedsclean.csv')
+books_df = pd.read_csv(data_path)
+books_df.head()
